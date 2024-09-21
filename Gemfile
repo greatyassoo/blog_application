@@ -21,7 +21,7 @@ gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # gem irb now depends on psych, but version 5 will not bundle currently
-gem("psych", "~> 4")
+gem("psych", "~> 5")
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
